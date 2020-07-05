@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 dwpDefaultCity: London
 dwpDefaultCityLatitude: 51.5072
 dwpDefaultCityLongitude: -0.1275
