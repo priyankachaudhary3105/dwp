@@ -1,0 +1,16 @@
+dwpDefaultCity: London
+dwpDefaultCityLatitude: 51.5072
+dwpDefaultCityLongitude: -0.1275
+bpdtsService:
+  cityUserUrl: https://bpdts-test-app.herokuapp.com/city/{cityName}/users
+  userIdServiceUrl: https://bpdts-test-app.herokuapp.com/user/{userId}
+  usersServiceUrl: https://bpdts-test-app.herokuapp.com/users
+logging:
+  file: logs/application.log
+  pattern:
+    console: '%d %-5level %logger : %msg%n'
+    file: '%d %-5level [%thread] %logger : %msg%n'
+  level:
+    org.dwp: info
+#    org.springframework.web: DEBUG
+    
